@@ -1,13 +1,13 @@
-// import cokeMismo from '../assets/images/cokeMismo.jpg';
-// import cokeKasalo from '../assets/images/cokeKasalo.jpg';
-// import cheezy from '../assets/images/cheezy.jpg';
-// import martys from '../assets/images/martys.jpg';
-// import kopikoBrown from '../assets/images/kopikoBrown.jpg';
-// import nescafe from '../assets/images/nescafe.jpg';
-// import headNShoulders from '../assets/images/headNShoulders.jpg';
-// import doveShampoo from '../assets/images/doveShampoo.jpg';
-// import arielPowder from '../assets/images/arielPowder.jpg';
-// import downy from '../assets/images/downy.jpg';
+import cokeMismo from '../assets/images/cokeMismo.jpg';
+import cokeKasalo from '../assets/images/cokeKasalo.jpg';
+import cheezy from '../assets/images/cheezy.jpg';
+import martys from '../assets/images/martys.jpg';
+import kopikoBrown from '../assets/images/kopikoBrown.jpg';
+import nescafe from '../assets/images/nescafe.jpg';
+import headNShoulders from '../assets/images/headNShoulders.jpg';
+import doveShampoo from '../assets/images/doveShampoo.jpg';
+import arielPowder from '../assets/images/arielPowder.jpg';
+import downy from '../assets/images/downy.jpg';
 
 export const popularItems = [
     {

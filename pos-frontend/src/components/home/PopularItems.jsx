@@ -1,5 +1,5 @@
 import React from 'react'
-import { PopularItems } from "../../constants";
+import { popularItems } from '../../constants'; 
 
 const PopularItems = () => {
     return (
@@ -12,7 +12,7 @@ const PopularItems = () => {
 
                 <div className="overflow-y-scroll h-[680px] scrollbar-hide">
                     {
-                        PopularItems.map((items) => { 
+                        popularItems.map((items) => { 
                             return (
                                 <div key={items.id} className="flex items-center gap-4 bg-[#1f1f1f] rounded-[15px] px-6 py-4 mt-4 mx-6">
                                     

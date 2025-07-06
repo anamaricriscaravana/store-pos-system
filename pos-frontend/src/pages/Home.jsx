@@ -5,7 +5,7 @@ import { BsCashCoin } from "react-icons/bs";
 import { GrInProgress } from "react-icons/gr";
 import MiniCard from '../components/home/MiniCard';
 import Recent from '../components/home/Recent';
-// import PopularItems from '../components/home/PopularItems';
+import PopularItems from '../components/home/PopularItems';
 
 const Home = () => {
     return (
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             {/* Right Div */}
             <div className="flex-[2]">
-                {/* <PopularItems /> {/* di pa ayos yung pics ng mga popular items = constants/index.js and images */}
+                { <PopularItems /> } {/* di pa ayos yung pics ng mga popular items = constants/index.js and images */}
             </div>
             <BottomNav />
         </section>
