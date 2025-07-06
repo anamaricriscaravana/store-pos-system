@@ -71,3 +71,8 @@ export const popularItems = [
         numberOfOrders: 150,
     },
 ] 
+
+export const inventory = [
+    { id: 1, name: "Softdrinks", status: "Low", initial: "SF" },
+    { id: 2, name: "Biscuits", status: "High", initial: "BC" },
+]
