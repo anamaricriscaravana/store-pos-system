@@ -27,7 +27,7 @@ const Inventory = () => {
                 {
                     inventory.map((inventory) => {
                         return (
-                            <InventoryCard key={inventory.id} name={inventory.name} status={inventory.status} initials={inventory.initial} />
+                            <InventoryCard key={inventory.id} id={inventory.id} name={inventory.name} status={inventory.status} initials={inventory.initial} />
                         )
                     })
                 }
