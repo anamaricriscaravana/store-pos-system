@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { products } from '../../constants'
 import { GrRadialSelected } from 'react-icons/gr';
+import { FaCartShopping } from "react-icons/fa6";
 
 const ProductContainer = () => {
 
@@ -51,7 +52,11 @@ const ProductContainer = () => {
                         return (
                             <div key={product.id} className='flex flex-col items-start justify-between p-4 rounded-lg h-[150px] cursor-pointer hover:bg-[#2a2a2a] bg-[#1a1a1a]' >
                                 <div className='flex items-center justify-between w-full'>
-                                    <h1 className='text-[#f5f5f5] text-lg font-semibold'> {product.name}</h1>
+                            <div className='flex items-start justify-between w-full'>
+                                        <h1 className='text-[#f5f5f5] text-lg font-semibold'> {product.name}</h1>
+                                <button className='bg-[#2e4a40] text-[#02ca3a] p-2 rounded-lg'><FaCartShopping size={20} /></button>
+                            </div>
+
                                 </div>
                                 <p className='text-[#f5f5f5] text-xl font-bold'> ₱{product.price} </p>
 

@@ -83,7 +83,6 @@ export const cannedGoods = [
     { id: 2, name: "Canned Corn", price: "35", category: "Canned Goods" },
     { id: 3, name: "Canned Tuna", price: "50", category: "Canned Goods" },
     { id: 4, name: "Canned Sardines", price: "30", category: "Canned Goods" },
-    { id: 5, name: "Canned Tomatoes", price: "18", category: "Canned Goods" }
 ];
 
 export const noodles = [

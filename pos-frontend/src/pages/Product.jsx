@@ -3,6 +3,9 @@ import BottomNav from '../components/shared/BottomNav'
 import BackButton from '../components/shared/BackButton'
 import { IoBagCheckOutline } from "react-icons/io5"
 import ProductContainer from '../components/product/ProductContainer'
+import CustomerInfo from '../components/product/CustomerInfo'
+import CartInfo from '../components/product/CartInfo'
+import Bill from '../components/product/Bill'
 
 const Product = () => {
   return (
@@ -27,14 +30,21 @@ const Product = () => {
           </div>
         </div>
 
-      <ProductContainer />
+        <ProductContainer />
 
       </div>
       {/* Right Div */}
-      <div className="flex-[1]">
-
+      <div className="flex-[1] bg-[#1a1a1a] mt-4 mr-3 h-[780px] rounded-lg pt-2">
+        {/* customer info */}
+        <CustomerInfo />
+        <hr className='border-[#2a2a2a] border-t-2' />
+        {/* cart items  */}
+        <CartInfo />
+         <hr className='border-[#2a2a2a] border-t-2' />
+        {/* bill type */}
+        
+        <Bill />
       </div>
-
 
       <BottomNav />
     </section>
