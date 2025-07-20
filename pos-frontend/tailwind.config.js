@@ -2,10 +2,12 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{svelte,js,ts,jsx,tsx}",
+    "./src/**/*.{svelte,js,ts,jsx,tsx,svelte}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [  ], // insert inside plugins: require('tailwind-scrollbar-hide')
+  plugins: [
+    require('tailwind-scrollbar-hide')
+    ],
 }
